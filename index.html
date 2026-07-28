@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NEURAL GRID — VIT Bhopal's 48-hour competitive innovation arena." />
+    <title>NEURAL GRID // Hackathon @ VIT Bhopal</title>
+    <link rel="preconnect" href__="https://fonts.googleapis.com" />
+    <link rel="preconnect" href__="https://fonts.gstatic.com" crossorigin />
+    <link
+        href__="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href__="style.css" />
+</head>
+
+<body data-theme="dark">
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- NAVBAR -->
+    <header id="navbar">
+        <nav class="nav-inner">
+            <a href__="#home" class="brand">
+                <span class="brand-icon">▣</span> NEURAL_GRID
+                <span class="brand-sub">// VIT Bhopal</span>
+            </a>
+            <div class="nav-links">
+                <a href__="#home">HOME</a>
+                <a href__="#about">ABOUT</a>
+                <a href__="#schedule">SCHEDULE</a>
+                <a href__="#prizes">PRIZES</a>
+                <a href__="#sponsors">SPONSORS</a>
+            </div>
+            <div class="nav-actions">
+                <button id="themeToggle" aria-label="Toggle theme">◑</button>
+                <a href__="#register" class="m-btn m-btn-primary nav-cta">REGISTER</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero scanlines">
+            <div class="hero-bg">
+                <canvas id="binaryCanvas" aria-hidden="true"></canvas>
+            </div>
+            <div class="container hero-content">
+                <div class="boot-line"><span class="blink">█</span> SYSTEM_BOOT :: NEURAL_GRID_v3.0</div>
+                <h1 class="hero-title">[HACK] THE<br><span class="volt">FUTURE</span>//<br>IN 48 HOURS</h1>
+                <p class="hero-sub">VIT Bhopal's flagship competitive innovation arena. 48 hours. 200+ engineers. One
+                    blueprint to rewrite what's possible. Compile your vision into reality.</p>
+                <div class="hero-cta">
+                    <a href__="#register" class="m-btn m-btn-primary">REGISTER_NOW →</a>
+                    <a href__="#schedule" class="m-btn m-btn-outline">VIEW SCHEDULE</a>
+                </div>
+                <div class="countdown-wrap">
+                    <div class="countdown-label">T-MINUS EXECUTION</div>
+                    <div id="countdown" class="countdown">
+                        <div class="cd-unit"><span class="cd-val" data-u="days">00</span><span
+                                class="cd-lbl">DAYS</span></div>
+                        <div class="cd-unit"><span class="cd-val" data-u="hours">00</span><span
+                                class="cd-lbl">HRS</span></div>
+                        <div class="cd-unit"><span class="cd-val" data-u="minutes">00</span><span
+                                class="cd-lbl">MIN</span></div>
+                        <div class="cd-unit"><span class="cd-val" data-u="seconds">00</span><span
+                                class="cd-lbl">SEC</span></div>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <span>◆ 48H SPRINT</span><span>◆ ₹5L+ PRIZE POOL</span><span>◆ 200+ BUILDERS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-tag"><span class="volt">01</span><span class="tag-line"></span><span>[ABOUT]</span>
+                </div>
+                <div class="about-grid">
+                    <div class="reveal">
+                        <h2 class="section-title">WE DON'T RUN<br><span class="volt">HACKATHONS.</span><br>WE RUN <span
+                                class="volt">EXECUTIONS.</span></h2>
+                        <p>NEURAL GRID is VIT Bhopal's reimagining of the competitive build sprint. Inspired by the
+                            discipline of system-level architecture and the velocity of modern engineering, we strip
+                            away the noise and leave only what matters: a high-stakes arena where raw talent compiles
+                            into shipped reality.</p>
+                        <p>No filler tracks. No participation trophies. Just 48 hours, real constraints, and the
+                            mentorship to push your prototype past the finish line.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-val volt">48</div>
+                                <div class="stat-lbl">HOURS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-val volt">200+</div>
+                                <div class="stat-lbl">ENGINEERS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-val volt">40+</div>
+                                <div class="stat-lbl">TEAMS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-val volt">5L+</div>
+                                <div class="stat-lbl">PRIZE POOL ₹</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual reveal">
+                        <div class="resource-node">[RESOURCE_NODE]</div>
+                    </div>
+                </div>
+                <div class="pillars">
+                    <div class="pillar reveal">
+                        <div class="pillar-icon">▦</div>
+                        <h3>SYSTEM-LEVEL THINKING</h3>
+                        <p>Architect solutions like low-level engineers — every module intentional, every interface
+                            deliberate.</p>
+                    </div>
+                    <div class="pillar reveal">
+                        <div class="pillar-icon">⬡</div>
+                        <h3>COLLABORATIVE COMPILATION</h3>
+                        <p>Cross-disciplinary teams merge design, code, and hardware into unified, deployable systems.
+                        </p>
+                    </div>
+                    <div class="pillar reveal">
+                        <div class="pillar-icon">⛨</div>
+                        <h3>RIGOROUS PROTOCOL</h3>
+                        <p>Judged on scalability, originality, and engineering depth — not just a working demo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCHEDULE -->
+        <section id="schedule" class="section">
+            <div class="container">
+                <div class="section-tag"><span class="volt">02</span><span
+                        class="tag-line"></span><span>[SCHEDULE]</span></div>
+                <h2 class="section-title">EXECUTION <span class="volt">STACK</span></h2>
+                <p class="section-sub">The full 48-hour compile sequence. Each phase expands as it enters the viewport —
+                    previous phases compress into a success state.</p>
+                <div class="timeline" id="timeline"></div>
+            </div>
+        </section>
+
+        <!-- PRIZES -->
+        <section id="prizes" class="section">
+            <div class="container">
+                <div class="section-tag"><span class="volt">03</span><span class="tag-line"></span><span>[PRIZES]</span>
+                </div>
+                <h2 class="section-title">RESOURCE<br><span class="volt">LAYER</span></h2>
+                <p class="section-sub">₹5,00,000+ in prize capital. Distributed across categories that reward real
+                    engineering — not just a flashy demo. Tilt the cards to inspect each node.</p>
+                <div class="pool-badge"><span class="muted">TOTAL_POOL //</span> <span
+                        class="volt bold">₹5,15,000</span></div>
+                <div class="prize-grid" id="prizeGrid"></div>
+            </div>
+        </section>
+
+        <!-- SPONSORS -->
+        <section id="sponsors" class="section">
+            <div class="container">
+                <div class="section-tag"><span class="volt">04</span><span
+                        class="tag-line"></span><span>[SPONSORS]</span></div>
+                <h2 class="section-title">CO-<span class="volt">ARCHITECTS</span></h2>
+                <p class="section-sub">The partners powering the grid. They don't just fund the arena — they help build
+                    it.</p>
+                <div id="sponsorTiers"></div>
+                <div class="partner-cta">
+                    <p class="muted">WANT TO JOIN THE GRID?</p>
+                    <p class="partner-title">BECOME A <span class="volt">PARTNER</span></p>
+                    <a href__="mailto:sponsors@neuralgrid.dev" class="m-btn m-btn-outline">sponsors@neuralgrid.dev</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- REGISTER -->
+        <section id="register" class="section">
+            <div class="container">
+                <div class="section-tag"><span class="volt">05</span><span
+                        class="tag-line"></span><span>[REGISTER]</span></div>
+                <h2 class="section-title">COMMITMENT <span class="volt">PROTOCOL</span></h2>
+                <p class="section-sub">Three steps. Real-time validation. Zero friction. Enter your team into the grid.
+                </p>
+
+                <div class="progress-wrap">
+                    <div class="progress-track">
+                        <div id="progressBar" class="progress-fill"></div>
+                    </div>
+                    <div class="progress-meta">
+                        <span id="stepLabel">STEP 1 / 3</span>
+                        <span id="statusLabel">AWAITING_INPUT...</span>
+                    </div>
+                </div>
+
+                <div class="register-grid">
+                    <form id="regForm" class="reg-form">
+                        <div id="formBody"></div>
+                        <div class="form-nav">
+                            <button type="button" id="backBtn" class="link-btn">← BACK</button>
+                            <button type="button" id="nextBtn" class="m-btn m-btn-outline">NEXT →</button>
+                        </div>
+                    </form>
+
+                    <div class="console">
+                        <div class="console-head">
+                            <span>◆ validation.console</span>
+                            <span class="dots"><span class="dot red"></span><span class="dot volt"></span><span
+                                    class="dot gray"></span></span>
+                        </div>
+                        <div id="consoleBody" class="console-body"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="brand">▣ NEURAL_GRID</div>
+                <p class="muted sm">VIT Bhopal's 48-hour competitive innovation arena. Compile the future.</p>
+            </div>
+            <div>
+                <div class="foot-tag">[VENUE]</div>
+                <p class="muted sm">VIT Bhopal University<br>Innovation Labs & Auditorium<br>Kotri Kalan, Bhopal, MP
+                    466114</p>
+            </div>
+            <div>
+                <div class="foot-tag">[CONNECT]</div>
+                <div class="socials">
+                    <a href__="https://github.com" target="_blank" rel="noreferrer">GH</a>
+                    <a href__="https://twitter.com" target="_blank" rel="noreferrer">TW</a>
+                    <a href__="https://linkedin.com" target="_blank" rel="noreferrer">IN</a>
+                    <a href__="mailto:hello@neuralgrid.dev">@</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 NEURAL_GRID // ALL_RIGHTS_RESERVED</span>
+            <span>BUILT AT VIT BHOPAL // v3.0.0</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
